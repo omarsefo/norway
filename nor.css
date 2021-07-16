@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+:root{
+    --main:#ffce2e;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url(img/mounsea2.jpg) no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+.maxw{
+    padding: 0 120px;
+}
+header{
+    padding: 30px 0;
+}
+header .maxw{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Poppins',sans-serif;
+}
+.logo a span{
+    color: var(--main);
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding-right: 480px;
+}
+header ul li a{
+    text-decoration: none;
+    margin: 0 20px;
+    color: #fff;
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+article .content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 120px;
+}
+article .content .textb{
+    width: 50%;
+    padding-left: 180px;
+    padding-top: 30px;
+    font-family: 'Poppins',sans-serif;
+    color: #fff;
+}
+article .content .textb span{
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+}
+article .content .textb h1{
+    color: var(--main);
+    padding: 9px 0;
+    letter-spacing: 4px;
+    font-size: 120px;
+    z-index: 9;
+    margin-block-start: 0;
+}
+article .content .textb h1 span{
+    color: #ffffff;
+    font-size: 120px;
+    z-index: 9;
+}
+article .content .textb div{
+    width: 80%;
+}
+.cir1{
+    position: absolute;
+    top: 150px;
+    right: 320px;
+    width: 600px;
+    height:600px;
+    clip-path: polygon(50% 91%, 86% 70%, 86% 26%, 50% 6%, 12% 26%, 13% 70%);
+    background:url(img/mounten.jpg);
+    background-size: cover;
+    background-position: left;
+    z-index: -1;
+}
+.cir2{
+    position: absolute;
+    top: 360px;
+    right:-289px;
+    width: 600px;
+    height:600px;
+    clip-path: polygon(50% 91%, 86% 70%, 86% 26%, 50% 6%, 12% 26%, 13% 70%);
+    background:url(img/mounsea2.jpg);
+    background-size: cover;
+    background-position: right;
+    z-index: -1;
+}
+.cir3{
+    position: absolute;
+    top: 240px;
+    right:140px;
+    width: 250px;
+    height:250px;
+    clip-path: polygon(50% 91%, 86% 70%, 86% 26%, 50% 6%, 12% 26%, 13% 70%);
+    background:url(img/mounsea3.jpg);
+    background-size: cover;
+    z-index: -1;
+}
+.cir4{
+    position: absolute;
+    top: 440px;
+    right:230px;
+    width: 250px;
+    height:250px;
+    clip-path: polygon(50% 91%, 86% 70%, 86% 26%, 50% 6%, 12% 26%, 13% 70%);
+    background-color: var(--main);
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #222;
+    font-size: 25px;
+    cursor: pointer;
+}
+.cir4:hover{
+    transform: scale(1.02);
+}
+.effect-7{
+    position: absolute;
+    border-top: 13px solid transparent;
+    border-left: 13px solid ;
+    right: 33%;
+    top: 47.5%;
+    z-index: -1;
+    transform: rotate(224deg);
+  }
+.cir5{
+    position: absolute;
+    top: 645px;
+    right:370px;
+    width: 250px;
+    height:250px;
+    clip-path: polygon(50% 91%, 86% 70%, 86% 26%, 50% 6%, 12% 26%, 13% 70%);
+    background:url(img/image1.jpg);
+    background-size: cover;
+    z-index: -1;
+}
+.cir6{
+    position: absolute;
+    top: -380px;
+    right:-170px;
+    width:600px;
+    height:600px;
+    clip-path: polygon(50% 91%, 86% 70%, 86% 26%, 50% 6%, 12% 26%, 13% 70%);
+    background:url(img/image1.jpg);
+    background-size: cover;
+    z-index: -1;
+}
+.cir7{
+    position: absolute;
+    top: 50px;
+    right:260px;
+    width: 250px;
+    height:250px;
+    clip-path: polygon(50% 91%, 86% 70%, 86% 26%, 50% 6%, 12% 26%, 13% 70%);
+    background:url(img/mounsea2.jpg);
+    background-size: cover;
+    z-index: -1;
+}
+.line{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 260px;
+    height: 3px;
+    background-color: var(--main);
+}
